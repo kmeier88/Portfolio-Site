@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Information</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <link rel="shortcut icon" href="img/kirkfavicon.svg" type="image/x-icon">
+  <meta name= "viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header class="page-header">
+    <img class="logo page-header__item" src="./img/kirklogo.svg" alt="Personal logo of Kirk Meier, a text logo that consists of my name">
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" target="_blank" role="menuitem" class="navigation-list__item navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" target="_blank" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" target="_blank" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" target="_blank" role="menuitem" class="navigation-list__item--active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contact-info">
+      Kirk Meier <br>
+      <a href="mailto:d.kirk.meier@gmail.com">d.kirk.meier@gmail.com</a> <br>
+      <a href="tel:+18025226170">(802) 522-6170</a> <br>
+    </div>
+  </main>
+
+<form action="" method="post" id="contact-form" class="contact-form">
+  <label class="standard-label" for="contact-email">E-mail (required): </label>
+  <input type="email" id="contact-email" placeholder="email" required>
+
+  <label class="standard-label" for="contact-tel">Telephone: </label>
+  <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+  <label class="standard-label" for="contact-message">Message (required): </label>
+  <textarea maxlength="240" id="contact-message" required></textarea>
+  
+  <input type="submit" value="Send message">
+</form>
+
+<div class="kirklogobox">
+  <svg class="kirklogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{font-size:67px;fill:#fff;font-family:Prohibition-Regular, Prohibition;}</style><linearGradient id="linear-gradient" x1="23.79" y1="24.31" x2="140.17" y2="131.25" gradientUnits="userSpaceOnUse"><stop offset="0.09" stop-color="#f2b694"/><stop offset="0.17" stop-color="#f2b18d"/><stop offset="0.29" stop-color="#f2a27b"/><stop offset="0.44" stop-color="#f28a5d"/><stop offset="0.59" stop-color="#f26933"/><stop offset="0.74" stop-color="#f24405"/></linearGradient></defs><g id="Layer_1" data-name="Layer 1"><circle class="cls-1" cx="78.04" cy="74.16" r="63.92"/></g><g id="text"><text class="cls-2" transform="translate(20.27 98.6)">K!RK</text></g></svg>
+</div>
+
+<footer class="page-footer">
+  <p>Find me on</p>
+  <div class="social-media">
+    <a href="https://github.com" target="_blank"><img src="img/github.svg" width="30px" height="30px" alt="Github"></a>
+    <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" width="30px" height="30px" alt="Instagram"></a>
+    <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.svg" width="30px" height="30px" alt="LiknedIn"></a> 
+  </div>
+</footer>
+
+  <script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
