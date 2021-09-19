@@ -126,6 +126,10 @@ h1 {
     color: white;
 }
 
+#about {
+    text-decoration: none;
+}
+
 .about__item.small {
     grid-row: span 1;
     grid-column: span 1;
@@ -161,45 +165,65 @@ h1 {
 }
 
 .about__item.tall.photo {
-    /*background-image: url(../img/private\ property.jpg);
-    background-color: #58555A;*/
     background-color: #F2811d;
-    background-blend-mode: multiply;
-    padding-bottom: 150px;
     color: white;
-    background-size: cover;
-    background-position: top left;
-    transition: all ease-in-out 800ms;
+    transition: all ease-in-out 600ms;
 }
 
 .about__item.tall.photo:hover {
-    background-image: url(../img/private\ property.jpg);
-    background-color: lightgray;
-    color: black;
-    background-position: bottom left;
-    font-size: 45px;
+    color: var(--header-color);
+    font-size: 55px;
 }
 
 .about__item.wide.art {
-    /*background-image: url(../img/hand.jpg);
-    background-color: #58555A;*/
     background-color: #F2B694;
-    background-blend-mode: multiply;
     color: white;
-    background-size: contain;
-    background-position: center;
-    transition: all ease-in-out 900ms;
+    transition: all ease-in-out 600ms;
 }
 
 .about__item.wide.art:hover {
-    background-image: url(../img/hand.jpg);
-    background-position: right;
-    background-color: white;
-    color: black;
+    color: var(--header-color);
     font-size: 100px;
-    /*background-color: lightgray;*/
 }
 
+.about__item.large {
+    color: white;
+    transition: all ease-in-out 600ms;
+}
+
+.about__item.large:hover {
+    color: var(--header-color);
+    font-size: 55px;
+}
+
+.about__item.medium.bikes {
+    color: white;
+    transition: all ease-in-out 600ms;
+}
+
+.about__item.medium.bikes:hover {
+    color: var(--header-color);
+    font-size: 55px;
+}
+
+.about__item.medium.snow {
+    color: white;
+    transition: all ease-in-out 600ms;
+}
+.about__item.medium.snow:hover {
+    color: var(--header-color);
+    font-size: 55px;
+}
+
+.about__item.small {
+    color: white;
+    transition: all ease-in-out 600ms;
+}
+
+.about__item.small:hover {
+    color: var(--header-color);
+    font-size: 55px;
+}
 
 }
 
