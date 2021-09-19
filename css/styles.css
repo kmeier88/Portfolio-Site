@@ -227,8 +227,16 @@ h1 {
 
 }
 
+@supports (display: grid) {
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 75px;
+}
+}
 
-a.button {
+.button {
     display: block;
 }
 
