@@ -407,6 +407,9 @@ button:hover, button:focus, .button:hover, .button:focus {
     }
     }
 
-
+.artpics {
+    max-width: 100%;
+    height: auto;
+}
 
 
