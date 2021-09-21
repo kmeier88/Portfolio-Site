@@ -421,5 +421,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 h2 {
-    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 235px;
+    left: 100px;
+    line-height: 1;
+    text-align: left;
+    font-size: 40px;
 }
