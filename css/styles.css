@@ -413,4 +413,13 @@ button:hover, button:focus, .button:hover, .button:focus {
     height: auto;
 }
 
+#baker {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+h2 {
+    font-size: 100px;
+}
